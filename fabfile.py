@@ -19,7 +19,7 @@ env.hosts = [
     REMOTE_HOST_SSH,
 ]
 env.use_ssh_config = True
-env.key_filename = '../gemoney.pem'
+env.key_filename = '../ai_flask.pem'
 project_folder = '/home/{}/{}'.format(env.user, PROJECT_NAME)
 apt_requirements = [
     'curl',
